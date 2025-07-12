@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+// Function prototypes
+void exampleFunction();
+
+int main() {
+    // Entry point of the program
+    printf("Hello, World!\n");
+
+    // Call example function
+    exampleFunction();
+
+    return 0;
+}
+
+void exampleFunction() {
+    // Example function implementation
+    printf("This is an example function.\n");
+}

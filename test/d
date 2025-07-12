@@ -1,0 +1,9 @@
+fun main() {
+    println("Hello, World!")
+}
+
+class Example {
+    fun greet(name: String): String {
+        return "Hello, $name!"
+    }
+}
