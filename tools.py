@@ -4,7 +4,6 @@ import os
 
 base_dir = Path("./test")
 
-
 def read_file(name: str) -> str:
     """Return file content. If not exist, return error message.
     """

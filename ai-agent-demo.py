@@ -1,4 +1,3 @@
-#### main.py
 from pydantic_ai import Agent
 from pydantic_ai.models.openai import OpenAIModel
 from pydantic_ai.providers.deepseek import DeepSeekProvider
@@ -28,4 +27,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main()  
