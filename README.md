@@ -1,24 +1,37 @@
 # AI Agent Project
 
 ## Overview
-AI agent练习项目。基于B站视频：[10分钟讲清楚 Prompt, Agent, MCP 是什么](https://www.bilibili.com/video/BV1aeLqzUE6L?vd_source=bde7c0fa35aba01c4e164a3fb9ec7ec3) 创建
+
+AI agent demo project that showcases the use of AI agents, prompts, and MCP (Multi-Context Processing) in Python.
 
 ## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/your-username/ai_agent.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd ai_agent
-    ```
-3. Install dependencies:
-    ```bash
-    pip3 install -r requirements.txt
-    ```
+
+This Project is managed by uv, a Python package manager. To install the project dependencies, run:
+
+```bash
+uv install
+```
+
+Init project with:
+
+```bash
+uv init
+```
+
+Install the required packages:
+
+```bash
+uv sync
+```
 
 ## Usage
+
 Run the AI agent with:
+
 ```bash
-python3 ai-agent-demo.py
+uv run ai-agent-demo.py
 ```
+
+## Resources
+
+- [10 分钟讲清楚 Prompt, Agent, MCP 是什么](https://www.bilibili.com/video/BV1aeLqzUE6L?vd_source=bde7c0fa35aba01c4e164a3fb9ec7ec3)
