@@ -14,7 +14,7 @@ model = OpenAIModel(
 
 agent = Agent(model,
               system_prompt="You are an experienced programmer",
-              tools=[tools.read_file, tools.list_files, tools.rename_file])
+              tools=[tools.read_file, tools.list_files, tools.rename_file, tools.create_md_file])
 
 def main():
     history = []
