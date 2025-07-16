@@ -2,7 +2,7 @@
 
 ## Overview
 
-AI agent demo project that showcases the use of AI agents, prompts, and MCP (Multi-Context Processing) in Python.
+AI Agent 演示项目，展示了在 Python 中使用 AI Agent、提示词（Prompt）和 MCP（多上下文处理）的应用。
 
 ## Installation
 
@@ -31,6 +31,11 @@ Run the AI agent with:
 ```bash
 uv run ai-agent-demo.py
 ```
+
+## Extra tasking
+
+1. 注意到当前代码中，每一次会话无法调用之前的上下文信息。扩展 AI Agent 使得每次会话都能调用之前的上下文信息。
+2. 实现功能：能够自动创建 markdown 文档，并将 test 文件中的每份代码简介写入到 markdown 文档中。
 
 ## Resources
 
