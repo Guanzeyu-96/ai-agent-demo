@@ -14,17 +14,13 @@ model = OpenAIModel(
 
 agent = Agent(model,
               system_prompt="You are an experienced programmer",
-              tools=[tools.read_file, tools.list_files, tools.rename_file, tools.create_md_file])
+              tools=[tools.read_file, tools.list_files, tools.rename_file])
 
 def main():
-    history = []
     while True:
         user_input = input("Input: ")
-        resp = agent.run_sync(user_input,
-                              message_history=history)
-        history = list(resp.all_messages())
+        resp = agent.run_sync(user_input)
         print(resp.output)
-
 
 if __name__ == "__main__":
     main()  

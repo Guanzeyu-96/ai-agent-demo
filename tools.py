@@ -36,19 +36,3 @@ def rename_file(name: str, new_name: str) -> str:
     except Exception as e:
         return f"An error occurred: {e}"
     
-def create_md_file(name: str, content: str) -> str:
-    """Create a new .md file in the test folder and write the given content."""
-    print(f"(create_md_file {name})")
-    if not name.endswith(".md"):
-        return "Error: File name must end with .md"
-    try:
-        file_path = base_dir / name
-        if not str(file_path).startswith(str(base_dir)):
-            return "Error: File path is outside base_dir."
-        os.makedirs(file_path.parent, exist_ok=True)
-        with open(file_path, "w") as f:
-            f.write(content)
-        return f"Markdown file '{name}' created successfully."
-    except Exception as e:
-        return f"An error occurred: {e}"
-    
