@@ -6,14 +6,6 @@ AI Agent 演示项目。
 
 ## Installation
 
-This Project is managed by uv, a Python package manager. To install the project dependencies, run:
-
-```bash
-uv install
-```
-
-Init project with:
-
 ```bash
 uv init
 ```
